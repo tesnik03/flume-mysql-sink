@@ -39,7 +39,6 @@ Considering if volumne of your kafka messages are small, you can do this by putt
     flume3.sinks.mysql-sink-3.url = <<URL of the server>>
     flume3.sinks.mysql-sink-3.password = <<User name >>
     flume3.sinks.mysql-sink-3.user = << password >>
-    flume3.sinks.mysql-sink-3.database = << database>>
     flume3.sinks.mysql-sink-3.driver = <<Driver class>>
 
     flume3.channels.kafka-channel-3.capacity = 10000
